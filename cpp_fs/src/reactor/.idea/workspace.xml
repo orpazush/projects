@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCMAKE_CXX_FLAGS=&quot;-pedantic-errors -Wall -Wextra -g -DLOGDEBUG&quot;" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e28c9e5c-685d-4590-8406-719ee5845c6f" name="Default Changelist" comment="timer almost approved">
+      <change beforePath="$PROJECT_DIR$/../../include/ca_test_util.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../include/demultiplexer.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../include/ilrd_details.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../include/logger.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../include/reactor.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../include/timer.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ca_util/ca_test_util.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demultiplexer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demultiplexer.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactor.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactor_test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scheduler/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scheduler/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scheduler/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scheduler/cmake-build-release/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scheduler/cmake-build-release/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scheduler/scheduler.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scheduler/scheduler.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scheduler/scheduler_test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timer/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timer/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timer/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timer/cmake-build-release/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timer/cmake-build-release/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timer/timer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timer/timer.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timer/timer_test.cpp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1hXJtID4B8z06QhnRUccURePbei" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../projects/src/scheduler" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e28c9e5c-685d-4590-8406-719ee5845c6f" name="Default Changelist" comment="" />
+      <created>1600151717236</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600151717236</updated>
+      <workItem from="1600151718388" duration="5116000" />
+      <workItem from="1600169849177" duration="101000" />
+      <workItem from="1600169950894" duration="62000" />
+      <workItem from="1600170014125" duration="10950000" />
+      <workItem from="1600236189602" duration="4194000" />
+      <workItem from="1600257412447" duration="24850000" />
+      <workItem from="1600432841876" duration="7611000" />
+      <workItem from="1600622961690" duration="8451000" />
+      <workItem from="1600687090165" duration="4384000" />
+      <workItem from="1600754497210" duration="1520000" />
+      <workItem from="1600756677198" duration="3040000" />
+      <workItem from="1600783569359" duration="618000" />
+      <workItem from="1600852798944" duration="8775000" />
+      <workItem from="1601192400020" duration="1823000" />
+      <workItem from="1601200597071" duration="475000" />
+      <workItem from="1601311165046" duration="587000" />
+      <workItem from="1601358025480" duration="4000" />
+      <workItem from="1601384134358" duration="2678000" />
+      <workItem from="1601402563067" duration="111000" />
+    </task>
+    <task id="LOCAL-00001" summary="timer almost approved">
+      <created>1600864869435</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600864869435</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="timer almost approved" />
+    <option name="LAST_COMMIT_MESSAGE" value="timer almost approved" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="622" y="234" width="732" height="637" key="#Inspections" timestamp="1600351923321">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="622" y="234" width="732" height="637" key="#Inspections/67.27.1853.1053@67.27.1853.1053" timestamp="1600351923321" />
+    <state x="125" y="214" width="800" height="677" key="#New_File_Extensions" timestamp="1600157097816">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="125" y="214" width="800" height="677" key="#New_File_Extensions/67.27.1853.1053@67.27.1853.1053" timestamp="1600157097816" />
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600257874115">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1600257874115" />
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600757430001">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1600757430001" />
+    <state x="167" y="125" width="1653" height="855" key="DiffContextDialog" timestamp="1600864930782">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="167" y="125" width="1653" height="855" key="DiffContextDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1600864930782" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1601402672455">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1601402672455" />
+    <state width="1807" height="230" key="GridCell.Tab.0.bottom" timestamp="1601402543649">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="230" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1601402543649" />
+    <state width="1807" height="230" key="GridCell.Tab.0.center" timestamp="1601402543647">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="230" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1601402543647" />
+    <state width="1807" height="230" key="GridCell.Tab.0.left" timestamp="1601402543645">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="230" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1601402543645" />
+    <state width="1807" height="230" key="GridCell.Tab.0.right" timestamp="1601402543648">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="230" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1601402543648" />
+    <state width="1807" height="230" key="GridCell.Tab.1.bottom" timestamp="1601402543637">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="230" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1601402543637" />
+    <state width="1807" height="230" key="GridCell.Tab.1.center" timestamp="1601402543637">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="230" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1601402543637" />
+    <state width="1807" height="230" key="GridCell.Tab.1.left" timestamp="1601402543636">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="230" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1601402543636" />
+    <state width="1807" height="230" key="GridCell.Tab.1.right" timestamp="1601402543637">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="230" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1601402543637" />
+    <state x="758" y="236" width="461" height="633" key="RollbackChangesDialog" timestamp="1600758831482">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="758" y="236" width="461" height="633" key="RollbackChangesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1600758831482" />
+    <state x="482" y="187" key="SettingsEditor" timestamp="1600630674051">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1600630674051" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600864932042">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1600864932042" />
+    <state x="430" y="456" width="1126" height="210" key="makefile.clean.confirm.dialog" timestamp="1600622971181">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="430" y="456" width="1126" height="210" key="makefile.clean.confirm.dialog/67.27.1853.1053@67.27.1853.1053" timestamp="1600622971181" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1600439575159">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1600439575159" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/reactor_test.cpp</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

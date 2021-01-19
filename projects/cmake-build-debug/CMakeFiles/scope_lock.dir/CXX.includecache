@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/orpaz/orpaz-houta/projects/src/scope_lock/scope_lock.hpp
+boost/core/noncopyable.hpp
+-
+
+/home/orpaz/orpaz-houta/projects/src/scope_lock/scope_lock_test.cpp
+boost/thread/mutex.hpp
+-
+boost/thread.hpp
+-
+iostream
+-
+exception
+-
+scope_lock.hpp
+/home/orpaz/orpaz-houta/projects/src/scope_lock/scope_lock.hpp
+

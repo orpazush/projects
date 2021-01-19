@@ -1,0 +1,3 @@
+/home/orpaz/orpaz-houta/projects/src/udp_socket/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/orpaz/orpaz-houta/projects/src/udp_socket/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/orpaz/orpaz-houta/projects/src/udp_socket/cmake-build-debug/CMakeFiles/udp_socket_test.dir

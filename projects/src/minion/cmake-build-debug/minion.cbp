@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="minion"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/orpaz/orpaz-houta/projects/src/minion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/projects/src/minion/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/projects/src/minion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/projects/src/minion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/projects/src/minion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/orpaz/orpaz-houta/projects/src/minion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/projects/src/minion/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/projects/src/minion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/projects/src/minion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/projects/src/minion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/orpaz/orpaz-houta/projects/src/minion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/projects/src/minion/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/projects/src/minion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/projects/src/minion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/projects/src/minion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minion_test">
+				<Option output="/home/orpaz/orpaz-houta/projects/src/minion/cmake-build-debug/minion_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/projects/src/minion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/projects/src/minion/."/>
+					<Add directory="/home/orpaz/orpaz-houta/projects/src/minion/../../include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/projects/src/minion/cmake-build-debug/Makefile&quot;  VERBOSE=1 minion_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/projects/src/minion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/projects/src/minion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/projects/src/minion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minion_test/fast">
+				<Option output="/home/orpaz/orpaz-houta/projects/src/minion/cmake-build-debug/minion_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/projects/src/minion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/projects/src/minion/."/>
+					<Add directory="/home/orpaz/orpaz-houta/projects/src/minion/../../include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/projects/src/minion/cmake-build-debug/Makefile&quot;  VERBOSE=1 minion_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/projects/src/minion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/projects/src/minion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/projects/src/minion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/orpaz/orpaz-houta/projects/src/communicator/communicator.cpp">
+			<Option target="minion_test"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/projects/src/communicator/communicator.hpp">
+			<Option target="minion_test"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/projects/src/minion/minion.cpp">
+			<Option target="minion_test"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/projects/src/minion/minion.hpp">
+			<Option target="minion_test"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/projects/src/minion/minion_test.cpp">
+			<Option target="minion_test"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/projects/src/protocol/vdr_protocol.cpp">
+			<Option target="minion_test"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/projects/src/protocol/vdr_protocol.hpp">
+			<Option target="minion_test"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/projects/src/reactor/demultiplexer.cpp">
+			<Option target="minion_test"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/projects/src/reactor/demultiplexer.hpp">
+			<Option target="minion_test"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/projects/src/reactor/reactor.cpp">
+			<Option target="minion_test"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/projects/src/reactor/reactor.hpp">
+			<Option target="minion_test"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/projects/src/udp_socket/udp_socket.cpp">
+			<Option target="minion_test"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/projects/src/udp_socket/udp_socket.hpp">
+			<Option target="minion_test"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/utils.cpp">
+			<Option target="minion_test"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/utils.hpp">
+			<Option target="minion_test"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/projects/src/minion/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

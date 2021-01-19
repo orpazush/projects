@@ -1,0 +1,1 @@
+/usr/bin/c++  -pedantic-errors -Wall -Wextra -g -lboost_system -lboost_chrono -lpthread -lboost_thread -DLOGDEBUG -g   CMakeFiles/singleton_test.dir/singleton_test.cpp.o  -o singleton_test  -lboost_system -lboost_thread 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/tcp_server.dir/tcp_server.cpp.o  -o tcp_server  -lpthread libutils.a 

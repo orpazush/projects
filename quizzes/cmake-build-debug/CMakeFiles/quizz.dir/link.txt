@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/quizz.dir/two_power.cpp.o  -o quizz 

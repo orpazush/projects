@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ping_udp.dir/ping_udp.cpp.o  -o ping_udp  libutils.a 

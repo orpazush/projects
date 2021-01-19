@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/orpaz/orpaz-houta/system_programming/tcp_udp/pong_udp.cpp
+cstdio
+-
+unistd.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+cstdlib
+-
+tcp_udp_utils.hpp
+/home/orpaz/orpaz-houta/system_programming/tcp_udp/tcp_udp_utils.hpp
+
+/home/orpaz/orpaz-houta/system_programming/tcp_udp/tcp_udp_utils.hpp
+iostream
+-
+cstdio
+-
+

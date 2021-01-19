@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/tcp_client.dir/tcp_client.cpp.o  -o tcp_client  -Wl,-rpath,/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug libutils.so 

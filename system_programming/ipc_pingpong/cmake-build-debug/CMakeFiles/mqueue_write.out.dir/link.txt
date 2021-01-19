@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/mqueue_write.out.dir/mqueue_write.cpp.o  -o mqueue_write.out 

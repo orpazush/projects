@@ -1,0 +1,1 @@
+/usr/bin/c++  -pedantic-errors -Wall -Wextra -g -g   CMakeFiles/triangle_number.dir/triangle_number.cpp.o  -o triangle_number 

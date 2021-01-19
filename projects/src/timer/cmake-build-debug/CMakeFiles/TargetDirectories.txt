@@ -1,0 +1,4 @@
+/home/orpaz/orpaz-houta/cpp_fs/src/timer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/orpaz/orpaz-houta/cpp_fs/src/timer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/orpaz/orpaz-houta/cpp_fs/src/timer/cmake-build-debug/CMakeFiles/timer_test.dir
+/home/orpaz/orpaz-houta/cpp_fs/src/timer/cmake-build-debug/CMakeFiles/timer.dir

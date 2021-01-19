@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/broadcast_client.dir/broadcast_client.cpp.o  -o broadcast_client  -Wl,-rpath,/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug libutils.so 

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/orpaz/orpaz-houta/quizzes/median_of_sorted_arrays.cpp
+cstddef
+-
+vector
+-
+iostream
+-
+

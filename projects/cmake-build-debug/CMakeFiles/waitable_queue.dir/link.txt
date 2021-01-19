@@ -1,0 +1,1 @@
+/usr/bin/c++  -pedantic-errors -Wall -Wextra -g -g   CMakeFiles/waitable_queue.dir/src/waitable_queue/waitable_queue_test.cpp.o  -o waitable_queue  -Wl,-rpath,/home/orpaz/orpaz-houta/projects/cmake-build-debug libprojects.so -lboost_system -lboost_thread -lboost_chrono -lpthread 

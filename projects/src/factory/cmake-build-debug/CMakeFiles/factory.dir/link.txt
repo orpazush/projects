@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/factory.dir/factory.cpp.o  -o factory  -lboost_system -lboost_thread 

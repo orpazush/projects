@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/storage.dir/heap_storage.cpp.o  -o storage 

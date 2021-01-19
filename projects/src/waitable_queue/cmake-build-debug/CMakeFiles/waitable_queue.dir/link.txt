@@ -1,0 +1,1 @@
+/usr/bin/c++  -pedantic-errors -Wall -Wextra -g -lboost_system -lboost_chrono -lpthread -lboost_thread -DLOGDEBUG -g   CMakeFiles/waitable_queue.dir/proj_utils.cpp.o CMakeFiles/waitable_queue.dir/waitable_queue_test.cpp.o  -o waitable_queue  -lboost_system -lboost_chrono -lboost_thread 

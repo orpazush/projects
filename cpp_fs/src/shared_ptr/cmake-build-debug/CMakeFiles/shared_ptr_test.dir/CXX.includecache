@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/orpaz/orpaz-houta/cpp_fs/src/shared_ptr/shared_ptr.hpp
+cstddef
+-
+
+/home/orpaz/orpaz-houta/cpp_fs/src/shared_ptr/shared_ptr_test.cpp
+iostream
+-
+shared_ptr.hpp
+/home/orpaz/orpaz-houta/cpp_fs/src/shared_ptr/shared_ptr.hpp
+

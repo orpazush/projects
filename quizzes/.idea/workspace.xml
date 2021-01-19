@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="quizzes" targetName="permutations" />
+      <config projectName="quizzes" targetName="bits_bytes" />
+      <config projectName="quizzes" targetName="snail_matrix" />
+      <config projectName="quizzes" targetName="is_permutation" />
+      <config projectName="quizzes" targetName="triangle_number" />
+      <config projectName="quizzes" targetName="checks" />
+      <config projectName="quizzes" targetName="booking" />
+      <config projectName="quizzes" targetName="e_commerce" />
+      <config projectName="quizzes" targetName="reverse_words" />
+      <config projectName="quizzes" targetName="min_unsort" />
+      <config projectName="quizzes" targetName="sudoku" />
+      <config projectName="quizzes" targetName="cppExam" />
+      <config projectName="quizzes" targetName="set_bits" />
+      <config projectName="quizzes" targetName="stack_of_queues" />
+      <config projectName="quizzes" targetName="is_rotation" />
+      <config projectName="quizzes" targetName="longest_string" />
+      <config projectName="quizzes" targetName="smallest_num" />
+      <config projectName="quizzes" targetName="median_of_sorted_arrays" />
+      <config projectName="quizzes" targetName="reverse_stack" />
+      <config projectName="quizzes" targetName="bst2dll" />
+      <config projectName="quizzes" targetName="expressions" />
+      <config projectName="quizzes" targetName="get_factors" />
+      <config projectName="quizzes" targetName="greedy" />
+      <config projectName="quizzes" targetName="sorting" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCMAKE_CXX_FLAGS=&quot;-pedantic-errors -Wall -Wextra -g&quot;" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a292838c-8b89-4fd2-9163-f27b04468fdf" name="Default Changelist" comment="quizzes" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1gieHKvxVocjyWf13jm5p6AapFg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projects/src/thread_pool" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RunManager" selected="CMake Application.median_of_sorted_arrays">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bits_bytes" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="quizzes" TARGET_NAME="bits_bytes" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="quizzes" RUN_TARGET_NAME="bits_bytes">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="booking" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="quizzes" TARGET_NAME="booking" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="quizzes" RUN_TARGET_NAME="booking">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bst2dll" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="quizzes" TARGET_NAME="bst2dll" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="quizzes" RUN_TARGET_NAME="bst2dll">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checks" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="quizzes" TARGET_NAME="checks" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="quizzes" RUN_TARGET_NAME="checks">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cppExam" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="quizzes" TARGET_NAME="cppExam" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="quizzes" RUN_TARGET_NAME="cppExam">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="e_commerce" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="quizzes" TARGET_NAME="e_commerce" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="quizzes" RUN_TARGET_NAME="e_commerce">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="expressions" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="quizzes" TARGET_NAME="expressions" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="quizzes" RUN_TARGET_NAME="expressions">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="get_factors" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="quizzes" TARGET_NAME="get_factors" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="quizzes" RUN_TARGET_NAME="get_factors">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="greedy" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="quizzes" TARGET_NAME="greedy" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="quizzes" RUN_TARGET_NAME="greedy">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="is_permutation" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="quizzes" TARGET_NAME="is_permutation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="quizzes" RUN_TARGET_NAME="is_permutation">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="is_rotation" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="quizzes" TARGET_NAME="is_rotation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="quizzes" RUN_TARGET_NAME="is_rotation">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="longest_string" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="quizzes" TARGET_NAME="longest_string" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="quizzes" RUN_TARGET_NAME="longest_string">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="median_of_sorted_arrays" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="quizzes" TARGET_NAME="median_of_sorted_arrays" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="quizzes" RUN_TARGET_NAME="median_of_sorted_arrays">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="min_unsort" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="quizzes" TARGET_NAME="min_unsort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="quizzes" RUN_TARGET_NAME="min_unsort">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="permutations" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="quizzes" TARGET_NAME="permutations" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="quizzes" RUN_TARGET_NAME="permutations">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reverse_stack" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="quizzes" TARGET_NAME="reverse_stack" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="quizzes" RUN_TARGET_NAME="reverse_stack">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reverse_words" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="quizzes" TARGET_NAME="reverse_words" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="quizzes" RUN_TARGET_NAME="reverse_words">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="set_bits" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="quizzes" TARGET_NAME="set_bits" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="quizzes" RUN_TARGET_NAME="set_bits">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="smallest_num" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="quizzes" TARGET_NAME="smallest_num" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="quizzes" RUN_TARGET_NAME="smallest_num">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="snail_matrix" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="quizzes" TARGET_NAME="snail_matrix" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="quizzes" RUN_TARGET_NAME="snail_matrix">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sorting" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="quizzes" TARGET_NAME="sorting" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="quizzes" RUN_TARGET_NAME="sorting">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stack_of_queues" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="quizzes" TARGET_NAME="stack_of_queues" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="quizzes" RUN_TARGET_NAME="stack_of_queues">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sudoku" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="quizzes" TARGET_NAME="sudoku" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="quizzes" RUN_TARGET_NAME="sudoku">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="triangle_number" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="quizzes" TARGET_NAME="triangle_number" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="quizzes" RUN_TARGET_NAME="triangle_number">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.bits_bytes" />
+      <item itemvalue="CMake Application.booking" />
+      <item itemvalue="CMake Application.bst2dll" />
+      <item itemvalue="CMake Application.checks" />
+      <item itemvalue="CMake Application.cppExam" />
+      <item itemvalue="CMake Application.e_commerce" />
+      <item itemvalue="CMake Application.expressions" />
+      <item itemvalue="CMake Application.get_factors" />
+      <item itemvalue="CMake Application.greedy" />
+      <item itemvalue="CMake Application.is_permutation" />
+      <item itemvalue="CMake Application.is_rotation" />
+      <item itemvalue="CMake Application.longest_string" />
+      <item itemvalue="CMake Application.median_of_sorted_arrays" />
+      <item itemvalue="CMake Application.min_unsort" />
+      <item itemvalue="CMake Application.permutations" />
+      <item itemvalue="CMake Application.reverse_stack" />
+      <item itemvalue="CMake Application.reverse_words" />
+      <item itemvalue="CMake Application.set_bits" />
+      <item itemvalue="CMake Application.smallest_num" />
+      <item itemvalue="CMake Application.snail_matrix" />
+      <item itemvalue="CMake Application.sorting" />
+      <item itemvalue="CMake Application.stack_of_queues" />
+      <item itemvalue="CMake Application.sudoku" />
+      <item itemvalue="CMake Application.triangle_number" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a292838c-8b89-4fd2-9163-f27b04468fdf" name="Default Changelist" comment="" />
+      <created>1598601750920</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598601750920</updated>
+      <workItem from="1598601752418" duration="773000" />
+      <workItem from="1598602526499" duration="6443000" />
+      <workItem from="1600406381185" duration="9517000" />
+      <workItem from="1600416167717" duration="9345000" />
+      <workItem from="1600432663705" duration="176000" />
+      <workItem from="1606657633363" duration="5286000" />
+      <workItem from="1606722950305" duration="4281000" />
+      <workItem from="1606807188144" duration="21718000" />
+      <workItem from="1606981442961" duration="7803000" />
+      <workItem from="1607328120614" duration="8405000" />
+      <workItem from="1607423886767" duration="14000" />
+      <workItem from="1607518718990" duration="5642000" />
+      <workItem from="1607587134774" duration="13658000" />
+      <workItem from="1608016573100" duration="12323000" />
+      <workItem from="1608109324992" duration="6798000" />
+      <workItem from="1608192618151" duration="20345000" />
+      <workItem from="1608218517885" duration="17783000" />
+      <workItem from="1608396318701" duration="655000" />
+      <workItem from="1608396994568" duration="12269000" />
+      <workItem from="1608450160936" duration="25973000" />
+      <workItem from="1608537221348" duration="11022000" />
+      <workItem from="1608624520675" duration="13040000" />
+      <workItem from="1608716245380" duration="12000" />
+      <workItem from="1608717244571" duration="1856000" />
+      <workItem from="1608796839155" duration="21225000" />
+      <workItem from="1609060262269" duration="14726000" />
+      <workItem from="1609158330568" duration="2280000" />
+      <workItem from="1609228346386" duration="4457000" />
+      <workItem from="1609233151073" duration="7536000" />
+      <workItem from="1609243879254" duration="8551000" />
+      <workItem from="1609327764651" duration="8333000" />
+      <workItem from="1609608145884" duration="15175000" />
+      <workItem from="1610008905013" duration="5433000" />
+      <workItem from="1610292082074" duration="599000" />
+      <workItem from="1610460192958" duration="13197000" />
+      <workItem from="1610617438580" duration="29000" />
+    </task>
+    <task id="LOCAL-00001" summary="quizzes">
+      <created>1608026781840</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608026781840</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/home/orpaz/orpaz-houta/quizzes" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="quizzes" />
+    <option name="LAST_COMMIT_MESSAGE" value="quizzes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/get_factors.cpp</url>
+          <line>78</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/get_factors.cpp</url>
+          <line>115</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/snail_matrix.cpp</url>
+          <line>62</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/elbitEx.cpp</url>
+          <line>117</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/booking.cpp</url>
+          <line>12</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="*(currNum1-1)" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

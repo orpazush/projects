@@ -1,0 +1,1 @@
+/usr/bin/c++  -pedantic-errors -Wall -Wextra -g -g   CMakeFiles/reverse_words.dir/reverse_words.cpp.o  -o reverse_words 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -pedantic-errors -Wall -Wextra -g -g   CMakeFiles/sna.dir/expressions.cpp.o  -o sna 

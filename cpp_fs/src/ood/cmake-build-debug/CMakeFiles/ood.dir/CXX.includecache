@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/orpaz/orpaz-houta/cpp_fs/src/ood/ood.cpp
+cstddef
+-
+dirent.h
+-
+iostream
+-
+ood.hpp
+/home/orpaz/orpaz-houta/cpp_fs/src/ood/ood.hpp
+
+/home/orpaz/orpaz-houta/cpp_fs/src/ood/ood.hpp
+string
+-
+vector
+-
+
+/home/orpaz/orpaz-houta/cpp_fs/src/ood/ood_test.cpp
+exception
+-
+iostream
+-
+ood.hpp
+/home/orpaz/orpaz-houta/cpp_fs/src/ood/ood.hpp
+

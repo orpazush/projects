@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ping_pong_server"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="broadcast_client">
+				<Option output="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/broadcast_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 broadcast_client"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="broadcast_client/fast">
+				<Option output="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/broadcast_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 broadcast_client/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utils">
+				<Option output="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/libutils.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 utils"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utils/fast">
+				<Option output="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/libutils.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 utils/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server">
+				<Option output="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 server"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server/fast">
+				<Option output="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 server/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp_client">
+				<Option output="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/tcp_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 tcp_client"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp_client/fast">
+				<Option output="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/tcp_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 tcp_client/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udp_client">
+				<Option output="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/udp_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 udp_client"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udp_client/fast">
+				<Option output="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/udp_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 udp_client/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/broadcast_client.cpp">
+			<Option target="broadcast_client"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/server.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/tcp_client.cpp">
+			<Option target="tcp_client"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/udp_client.cpp">
+			<Option target="udp_client"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/utils.cpp">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/utils.hpp">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/system_programming/ping_pong_server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

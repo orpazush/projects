@@ -1,0 +1,8 @@
+/home/orpaz/orpaz-houta/system_programming/tcp_udp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/orpaz/orpaz-houta/system_programming/tcp_udp/cmake-build-debug/CMakeFiles/ping_udp.dir
+/home/orpaz/orpaz-houta/system_programming/tcp_udp/cmake-build-debug/CMakeFiles/utils.dir
+/home/orpaz/orpaz-houta/system_programming/tcp_udp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/orpaz/orpaz-houta/system_programming/tcp_udp/cmake-build-debug/CMakeFiles/rbo_serv.dir
+/home/orpaz/orpaz-houta/system_programming/tcp_udp/cmake-build-debug/CMakeFiles/tcp_server.dir
+/home/orpaz/orpaz-houta/system_programming/tcp_udp/cmake-build-debug/CMakeFiles/tcp_client.dir
+/home/orpaz/orpaz-houta/system_programming/tcp_udp/cmake-build-debug/CMakeFiles/pong_udp.dir

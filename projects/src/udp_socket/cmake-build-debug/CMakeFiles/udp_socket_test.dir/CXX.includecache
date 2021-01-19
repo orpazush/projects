@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../../include/ilrd_details.hpp
+cstdio
+-
+stdexcept
+-
+logger.hpp
+../../../include/logger.hpp
+
+../../../include/logger.hpp
+iostream
+-
+
+/home/orpaz/orpaz-houta/projects/src/udp_socket/udp_socket.cpp
+sys/socket.h
+-
+netinet/in.h
+-
+fcntl.h
+-
+ilrd_details.hpp
+/home/orpaz/orpaz-houta/projects/src/udp_socket/ilrd_details.hpp
+udp_socket.hpp
+/home/orpaz/orpaz-houta/projects/src/udp_socket/udp_socket.hpp
+
+/home/orpaz/orpaz-houta/projects/src/udp_socket/udp_socket.hpp
+boost/noncopyable.hpp
+-
+

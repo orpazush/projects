@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="raspi (7d0cbf52-a57f-4d9e-ae76-75b01ca92ae9)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../communicator/communicator.cpp" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping local="$PROJECT_DIR$/../protocol/vdr_protocol.cpp" web="/" />
+            <mapping local="$PROJECT_DIR$/../reactor/demultiplexer.cpp" web="/" />
+            <mapping local="$PROJECT_DIR$/../reactor/reactor.cpp" web="/" />
+            <mapping local="$PROJECT_DIR$/../udp_socket/udp_socket.cpp" web="/" />
+            <mapping local="$PROJECT_DIR$/../../../system_programming/ping_pong_server/utils.cpp" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

@@ -1,0 +1,1329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="quizzes"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="triangle_number">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/triangle_number" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 triangle_number"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="triangle_number/fast">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/triangle_number" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 triangle_number/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set_bits">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/set_bits" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 set_bits"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set_bits/fast">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/set_bits" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 set_bits/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sudoku">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/sudoku" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 sudoku"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sudoku/fast">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/sudoku" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 sudoku/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="checks">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/checks" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 checks"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="checks/fast">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/checks" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 checks/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="smallest_num">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/smallest_num" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 smallest_num"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="smallest_num/fast">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/smallest_num" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 smallest_num/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="longest_string">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/longest_string" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 longest_string"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="longest_string/fast">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/longest_string" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 longest_string/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reverse_stack">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/reverse_stack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 reverse_stack"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reverse_stack/fast">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/reverse_stack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 reverse_stack/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sorting">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/sorting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 sorting"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sorting/fast">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/sorting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 sorting/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reverse_words">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/reverse_words" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 reverse_words"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reverse_words/fast">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/reverse_words" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 reverse_words/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="booking">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/booking" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 booking"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="booking/fast">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/booking" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 booking/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="median_of_sorted_arrays">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/median_of_sorted_arrays" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 median_of_sorted_arrays"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="median_of_sorted_arrays/fast">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/median_of_sorted_arrays" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 median_of_sorted_arrays/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="get_factors">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/get_factors" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 get_factors"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="get_factors/fast">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/get_factors" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 get_factors/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="snail_matrix">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/snail_matrix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 snail_matrix"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="snail_matrix/fast">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/snail_matrix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 snail_matrix/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="expressions">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/expressions" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 expressions"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="expressions/fast">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/expressions" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 expressions/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="is_permutation">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/is_permutation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 is_permutation"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="is_permutation/fast">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/is_permutation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 is_permutation/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack_of_queues">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/stack_of_queues" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack_of_queues"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack_of_queues/fast">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/stack_of_queues" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack_of_queues/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="permutations">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/permutations" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 permutations"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="permutations/fast">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/permutations" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 permutations/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="greedy">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/greedy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 greedy"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="greedy/fast">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/greedy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 greedy/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="e_commerce">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/e_commerce" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 e_commerce"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="e_commerce/fast">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/e_commerce" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 e_commerce/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="min_unsort">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/min_unsort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 min_unsort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="min_unsort/fast">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/min_unsort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 min_unsort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bits_bytes">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/bits_bytes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 bits_bytes"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bits_bytes/fast">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/bits_bytes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 bits_bytes/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="is_rotation">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/is_rotation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 is_rotation"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="is_rotation/fast">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/is_rotation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 is_rotation/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bst2dll">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/bst2dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 bst2dll"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bst2dll/fast">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/bst2dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 bst2dll/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cppExam">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/cppExam" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 cppExam"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cppExam/fast">
+				<Option output="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/cppExam" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/orpaz/orpaz-houta/quizzes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/."/>
+					<Add directory="/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 cppExam/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/orpaz/orpaz-houta/cpp_fs/src/bitarray/bitarray.cpp">
+			<Option target="sudoku"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/cpp_fs/src/bitarray/bitarray.hpp">
+			<Option target="sudoku"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/quizzes/bits_bytes.cpp">
+			<Option target="bits_bytes"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/quizzes/booking.cpp">
+			<Option target="booking"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/quizzes/bst2dll.cpp">
+			<Option target="bst2dll"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/quizzes/checks.cpp">
+			<Option target="checks"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/quizzes/cppExam.cpp">
+			<Option target="cppExam"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/quizzes/e_commerce.cpp">
+			<Option target="e_commerce"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/quizzes/elbitEx.cpp">
+			<Option target="smallest_num"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/quizzes/expressions.cpp">
+			<Option target="expressions"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/quizzes/get_factors.cpp">
+			<Option target="get_factors"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/quizzes/greedy.cpp">
+			<Option target="greedy"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/quizzes/is_permutation.cpp">
+			<Option target="is_permutation"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/quizzes/is_rotation.cpp">
+			<Option target="is_rotation"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/quizzes/longest_string.cpp">
+			<Option target="longest_string"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/quizzes/median_of_sorted_arrays.cpp">
+			<Option target="median_of_sorted_arrays"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/quizzes/min_unsort.cpp">
+			<Option target="min_unsort"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/quizzes/permutations.cpp">
+			<Option target="permutations"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/quizzes/reverse_stack.cpp">
+			<Option target="reverse_stack"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/quizzes/reverse_words.cpp">
+			<Option target="reverse_words"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/quizzes/set_bits.cpp">
+			<Option target="set_bits"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/quizzes/snail_matrix.cpp">
+			<Option target="snail_matrix"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/quizzes/sorting.cpp">
+			<Option target="sorting"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/quizzes/stack_of_queues.cpp">
+			<Option target="stack_of_queues"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/quizzes/sudoku.cpp">
+			<Option target="sudoku"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/quizzes/sudoku.hpp">
+			<Option target="sudoku"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/quizzes/sudoku_test.cpp">
+			<Option target="sudoku"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/quizzes/triangle_number.cpp">
+			<Option target="triangle_number"/>
+		</Unit>
+		<Unit filename="/home/orpaz/orpaz-houta/quizzes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

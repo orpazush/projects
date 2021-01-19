@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../../include/ilrd_details.hpp
+cstdio
+-
+stdexcept
+-
+logger.hpp
+../../../include/logger.hpp
+
+../../../include/logger.hpp
+iostream
+-
+
+/home/orpaz/orpaz-houta/cpp_fs/src/reactor/demultiplexer.cpp
+zconf.h
+-
+ilrd_details.hpp
+-
+demultiplexer.hpp
+/home/orpaz/orpaz-houta/cpp_fs/src/reactor/demultiplexer.hpp
+
+/home/orpaz/orpaz-houta/cpp_fs/src/reactor/demultiplexer.hpp
+vector
+-
+

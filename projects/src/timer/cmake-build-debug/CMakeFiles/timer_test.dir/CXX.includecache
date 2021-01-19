@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../../include/logger.hpp
+iostream
+-
+
+/home/orpaz/orpaz-houta/cpp_fs/src/reactor/demultiplexer.cpp
+zconf.h
+-
+demultiplexer.hpp
+/home/orpaz/orpaz-houta/cpp_fs/src/reactor/demultiplexer.hpp
+logger.hpp
+/home/orpaz/orpaz-houta/cpp_fs/src/reactor/logger.hpp
+
+/home/orpaz/orpaz-houta/cpp_fs/src/reactor/demultiplexer.hpp
+vector
+-
+
+/home/orpaz/orpaz-houta/cpp_fs/src/reactor/reactor.cpp
+reactor.hpp
+/home/orpaz/orpaz-houta/cpp_fs/src/reactor/reactor.hpp
+demultiplexer.hpp
+/home/orpaz/orpaz-houta/cpp_fs/src/reactor/demultiplexer.hpp
+logger.hpp
+/home/orpaz/orpaz-houta/cpp_fs/src/reactor/logger.hpp
+
+/home/orpaz/orpaz-houta/cpp_fs/src/reactor/reactor.hpp
+vector
+-
+map
+-
+boost/core/noncopyable.hpp
+-
+boost/function.hpp
+-
+demultiplexer.hpp
+/home/orpaz/orpaz-houta/cpp_fs/src/reactor/demultiplexer.hpp
+

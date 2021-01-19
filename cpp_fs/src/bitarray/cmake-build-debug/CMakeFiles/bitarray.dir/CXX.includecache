@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/orpaz/orpaz-houta/cpp_fs/src/bitarray/bitarray.cpp
+bitarray.hpp
+/home/orpaz/orpaz-houta/cpp_fs/src/bitarray/bitarray.hpp
+ca_test_util.hpp
+/home/orpaz/orpaz-houta/cpp_fs/src/bitarray/ca_test_util.hpp
+
+/home/orpaz/orpaz-houta/cpp_fs/src/bitarray/bitarray.hpp
+string
+-
+climits
+-
+algorithm
+-
+cstring
+-
+functional
+-
+
+/home/orpaz/orpaz-houta/cpp_fs/src/bitarray/ca_test_util.hpp
+string
+-
+iostream
+-
+

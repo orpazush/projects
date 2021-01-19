@@ -1,0 +1,7 @@
+/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/CMakeFiles/broadcast_client.dir
+/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/CMakeFiles/utils.dir
+/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/CMakeFiles/server.dir
+/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/CMakeFiles/tcp_client.dir
+/home/orpaz/orpaz-houta/system_programming/ping_pong_server/cmake-build-debug/CMakeFiles/udp_client.dir

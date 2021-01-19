@@ -1,0 +1,4 @@
+/snap/clion/126/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Release "--DCMAKE_CXX_FLAGS=-pedantic-errors -Wall -Wextra -O3 -lboost_system -lboost_chrono" -G "CodeBlocks - Unix Makefiles" /home/orpaz/orpaz-houta/cpp_fs/src/scheduler
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/orpaz/orpaz-houta/cpp_fs/src/scheduler/cmake-build-release

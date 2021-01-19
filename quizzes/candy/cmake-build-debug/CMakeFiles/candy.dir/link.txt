@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/candy.dir/main.cpp.o  -o candy 

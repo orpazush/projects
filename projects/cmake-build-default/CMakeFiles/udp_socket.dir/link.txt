@@ -1,0 +1,1 @@
+/usr/bin/c++  -pedantic-errors -Wall -Wextra -O3   CMakeFiles/udp_socket.dir/src/udp_socket/udp_socket_test.cpp.o  -o udp_socket  -Wl,-rpath,/home/orpaz/orpaz-houta/projects/cmake-build-default libprojects.so -lboost_system -lboost_thread -lboost_chrono 

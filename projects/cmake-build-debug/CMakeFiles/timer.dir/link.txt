@@ -1,0 +1,1 @@
+/usr/bin/c++  -pedantic-errors -Wall -Wextra -g -g   CMakeFiles/timer.dir/src/timer/timer_test.cpp.o  -o timer  -Wl,-rpath,/home/orpaz/orpaz-houta/projects/cmake-build-debug libprojects.so -lboost_system -lboost_thread -lboost_chrono -lpthread 

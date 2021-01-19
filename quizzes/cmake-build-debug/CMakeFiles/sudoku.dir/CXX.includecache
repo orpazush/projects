@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../cpp_fs/include/bitarray.hpp
+string
+-
+climits
+-
+algorithm
+-
+functional
+-
+numeric
+-
+stdexcept
+-
+
+/home/orpaz/orpaz-houta/quizzes/sudoku.cpp
+iostream
+-
+sudoku.hpp
+/home/orpaz/orpaz-houta/quizzes/sudoku.hpp
+
+/home/orpaz/orpaz-houta/quizzes/sudoku.hpp
+cstdint
+-
+bitarray.hpp
+/home/orpaz/orpaz-houta/quizzes/bitarray.hpp
+

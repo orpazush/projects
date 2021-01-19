@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ood.dir/ood.cpp.o CMakeFiles/ood.dir/ood_test.cpp.o  -o ood 

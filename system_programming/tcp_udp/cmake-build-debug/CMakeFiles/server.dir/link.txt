@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/server.dir/tcp_client.cpp.o CMakeFiles/server.dir/tcp_server.cpp.o  -o server 

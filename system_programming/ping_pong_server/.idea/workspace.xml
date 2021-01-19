@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="ping_pong_server" targetName="tcp_client" />
+      <config projectName="ping_pong_server" targetName="broadcast_client" />
+      <config projectName="ping_pong_server" targetName="server" />
+      <config projectName="ping_pong_server" targetName="utils" />
+      <config projectName="ping_pong_server" targetName="udp_client" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="37580134-4aa1-4146-8b0d-6d6bca9df68b" name="Default Changelist" comment="&quot;to check&quot;">
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/include/ca_test_util.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/include/demultiplexer.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/include/ilrd_details.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/include/logger.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/include/reactor.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/include/timer.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/src/ca_util/ca_test_util.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/src/reactor/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/src/reactor/clients.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/src/reactor/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/src/reactor/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/src/reactor/demultiplexer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/src/reactor/demultiplexer.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/src/reactor/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/src/reactor/reactor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/src/reactor/reactor.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/src/reactor/reactor_test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/src/scheduler/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/src/scheduler/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/src/scheduler/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/src/scheduler/cmake-build-release/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/src/scheduler/cmake-build-release/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/src/scheduler/scheduler.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/src/scheduler/scheduler.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/src/scheduler/scheduler_test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/src/timer/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/src/timer/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/src/timer/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/src/timer/cmake-build-release/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/src/timer/cmake-build-release/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/src/timer/timer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/src/timer/timer.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp_fs/src/timer/timer_test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udp_client.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/udp_client.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="clangTidyViaClangd" value="false" />
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1giyWBw3sE8FbJgtZCvoEpxAp7Z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
+  </component>
+  <component name="RunManager" selected="CMake Application.udp_client">
+    <configuration name="broadcast_client" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="2222" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ping_pong_server" TARGET_NAME="broadcast_client" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ping_pong_server" RUN_TARGET_NAME="broadcast_client">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="server" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="5555" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ping_pong_server" TARGET_NAME="server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ping_pong_server" RUN_TARGET_NAME="server">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tcp_client" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="5555" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ping_pong_server" TARGET_NAME="tcp_client" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ping_pong_server" RUN_TARGET_NAME="tcp_client">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="udp_client" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="5555" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ping_pong_server" TARGET_NAME="udp_client" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ping_pong_server" RUN_TARGET_NAME="udp_client">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="utils" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ping_pong_server" TARGET_NAME="utils" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.broadcast_client" />
+      <item itemvalue="CMake Application.server" />
+      <item itemvalue="CMake Application.tcp_client" />
+      <item itemvalue="CMake Application.udp_client" />
+      <item itemvalue="CMake Application.utils" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="37580134-4aa1-4146-8b0d-6d6bca9df68b" name="Default Changelist" comment="" />
+      <created>1598611736130</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598611736130</updated>
+      <workItem from="1598611737432" duration="12770000" />
+      <workItem from="1598725498005" duration="6090000" />
+      <workItem from="1598765447523" duration="18470000" />
+      <workItem from="1598789005134" duration="741000" />
+      <workItem from="1598790348033" duration="11016000" />
+      <workItem from="1598852937177" duration="668000" />
+      <workItem from="1598853664599" duration="3022000" />
+      <workItem from="1598888167461" duration="824000" />
+      <workItem from="1598889001825" duration="3909000" />
+      <workItem from="1598943799529" duration="5004000" />
+      <workItem from="1599206054251" duration="2689000" />
+      <workItem from="1600096841326" duration="822000" />
+      <workItem from="1600149007556" duration="3203000" />
+      <workItem from="1600236193289" duration="599000" />
+      <workItem from="1600257410632" duration="4147000" />
+      <workItem from="1600433747691" duration="1736000" />
+      <workItem from="1600622960912" duration="599000" />
+      <workItem from="1600687090482" duration="2130000" />
+      <workItem from="1600754496412" duration="823000" />
+      <workItem from="1600756677296" duration="8000" />
+      <workItem from="1600758854526" duration="43000" />
+      <workItem from="1601406899784" duration="714000" />
+      <workItem from="1601444939355" duration="599000" />
+      <workItem from="1601477089707" duration="599000" />
+    </task>
+    <task id="LOCAL-00001" summary="&quot;server in proccess&quot;">
+      <created>1598627466039</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598627466039</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&quot;server in c not c++&quot;">
+      <created>1598730141520</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598730141520</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;server not entirely finish&quot;">
+      <created>1598853715254</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598853715254</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&quot;server approved&quot;">
+      <created>1598894530667</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598894530667</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&quot;to check&quot;">
+      <created>1598947226564</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598947226564</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;server in proccess&quot;" />
+    <MESSAGE value="&quot;server in c not c++&quot;" />
+    <MESSAGE value="&quot;server not entirely finish&quot;" />
+    <MESSAGE value="&quot;server approved&quot;" />
+    <MESSAGE value="&quot;to check&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;to check&quot;" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1053" y="234" width="732" height="637" key="#Inspections" timestamp="1598789475780">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="1053" y="234" width="732" height="637" key="#Inspections/67.27.1853.1053@67.27.1853.1053" timestamp="1598789475780" />
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598893230272">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598893230272" />
+    <state width="430" height="482" key="Diff.GoToChangePopup" timestamp="1598947120586">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="430" height="482" key="Diff.GoToChangePopup/67.27.1853.1053@67.27.1853.1053" timestamp="1598947120586" />
+    <state x="71" y="225" width="1653" height="855" key="DiffContextDialog" timestamp="1598948914847">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="71" y="225" width="1653" height="855" key="DiffContextDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598948914847" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1598948911780">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1598948911780" />
+    <state width="1807" height="276" key="GridCell.Tab.0.bottom" timestamp="1600434151276">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="276" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1600434151276" />
+    <state width="1807" height="276" key="GridCell.Tab.0.center" timestamp="1600434151275">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="276" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1600434151275" />
+    <state width="1807" height="276" key="GridCell.Tab.0.left" timestamp="1600434151274">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="276" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1600434151274" />
+    <state width="1807" height="276" key="GridCell.Tab.0.right" timestamp="1600434151276">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="276" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1600434151276" />
+    <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1599208743384">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1599208743384" />
+    <state width="1807" height="344" key="GridCell.Tab.1.center" timestamp="1599208743384">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1599208743384" />
+    <state width="1807" height="344" key="GridCell.Tab.1.left" timestamp="1599208743384">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1599208743384" />
+    <state width="1807" height="344" key="GridCell.Tab.1.right" timestamp="1599208743384">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1599208743384" />
+    <state x="754" y="236" width="468" height="633" key="RollbackChangesDialog" timestamp="1600758875328">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="754" y="236" width="468" height="633" key="RollbackChangesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1600758875328" />
+    <state x="482" y="187" key="SettingsEditor" timestamp="1598883588930">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1598883588930" />
+    <state x="1019" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1598947230852">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="1019" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1598947230852" />
+    <state x="1205" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598627406937">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="1205" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1853.1053@67.27.1853.1053" timestamp="1598627406937" />
+    <state x="1123" y="339" width="325" height="429" key="refactoring.ChangeSignatureDialog" timestamp="1598731159211">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="1123" y="339" width="325" height="429" key="refactoring.ChangeSignatureDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598731159211" />
+    <state x="972" y="254" key="run.anything.popup" timestamp="1598791333980">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="972" y="254" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1598791333980" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/tcp_client.cpp</url>
+          <line>47</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/tcp_client.cpp</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/utils.hpp</url>
+          <line>15</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

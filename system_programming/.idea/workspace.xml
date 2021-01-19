@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="tcp_udp" targetName="tcp_client" />
+      <config projectName="tcp_udp" targetName="ping_udp" />
+      <config projectName="tcp_udp" targetName="pong_udp" />
+      <config projectName="tcp_udp" targetName="utils" />
+      <config projectName="tcp_udp" targetName="rbo_serv" />
+      <config projectName="tcp_udp" targetName="tcp_server" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="000ac576-94ad-479f-8768-20b7918659a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ping_pong_server/server.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ping_pong_server/tcp_client.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ping_pong_server/udp_client.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ping_pong_server/utils.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ping_pong_server/utils.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ipc_pingpong/pipes.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ipc_pingpong/socket.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ipc_pingpong/socket.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcp_udp/broadcast_udp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcp_udp/ping_pong.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcp_udp/ping_pong_utils.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcp_udp/ping_pong_utils.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcp_udp/ping_udp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcp_udp/pong_udp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcp_udp/tcp_client.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcp_udp/tcp_server.h" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1gitHNnG76Wr3Z3CVQoK7SSQQNt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager" selected="CMake Application.rbo_serv">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ping_udp" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="4444" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tcp_udp" TARGET_NAME="ping_udp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tcp_udp" RUN_TARGET_NAME="ping_udp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pong_udp" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="4444" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tcp_udp" RUN_TARGET_NAME="pong_udp" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rbo_serv" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="4444" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tcp_udp" TARGET_NAME="rbo_serv" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tcp_udp" RUN_TARGET_NAME="rbo_serv">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tcp_client" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="4444" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tcp_udp" TARGET_NAME="tcp_client" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tcp_udp" RUN_TARGET_NAME="tcp_client">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tcp_server" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="4444" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tcp_udp" TARGET_NAME="tcp_server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tcp_udp" RUN_TARGET_NAME="tcp_server">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="utils" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tcp_udp" TARGET_NAME="utils" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.ping_udp" />
+      <item itemvalue="CMake Application.pong_udp" />
+      <item itemvalue="CMake Application.rbo_serv" />
+      <item itemvalue="CMake Application.tcp_client" />
+      <item itemvalue="CMake Application.tcp_server" />
+      <item itemvalue="CMake Application.utils" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="000ac576-94ad-479f-8768-20b7918659a2" name="Default Changelist" comment="" />
+      <created>1598609151321</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598609151321</updated>
+      <workItem from="1598609152398" duration="2662000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="622" y="234" width="732" height="637" key="#Inspections" timestamp="1598611583851">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="622" y="234" width="732" height="637" key="#Inspections/67.27.1853.1053@67.27.1853.1053" timestamp="1598611583851" />
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598612770762">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598612770762" />
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598609286213">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598609286213" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1598611731016">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1598611731016" />
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1598612818135">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598612818135" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1598612818135">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598612818135" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1598612818135">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598612818135" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1598612818135">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598612818135" />
+    <state width="640" height="204" key="ImportCMakeProjectWizard.bottomPanel" timestamp="1598611733265">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="640" height="204" key="ImportCMakeProjectWizard.bottomPanel/67.27.1853.1053@67.27.1853.1053" timestamp="1598611733265" />
+    <state width="640" height="476" key="ImportCMakeProjectWizard.topPanel" timestamp="1598611733264">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="640" height="476" key="ImportCMakeProjectWizard.topPanel/67.27.1853.1053@67.27.1853.1053" timestamp="1598611733264" />
+  </component>
+</project>

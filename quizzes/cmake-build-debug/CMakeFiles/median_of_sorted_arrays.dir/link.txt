@@ -1,0 +1,1 @@
+/usr/bin/c++  -pedantic-errors -Wall -Wextra -g -g   CMakeFiles/median_of_sorted_arrays.dir/median_of_sorted_arrays.cpp.o  -o median_of_sorted_arrays 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -pedantic-errors -Wall -Wextra -g -g   CMakeFiles/stack_of_queues.dir/stack_of_queues.cpp.o  -o stack_of_queues 

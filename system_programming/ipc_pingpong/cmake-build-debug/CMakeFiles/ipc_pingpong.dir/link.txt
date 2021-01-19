@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ipc_pingpong.dir/mqueue_read.cpp.o CMakeFiles/ipc_pingpong.dir/mqueue_write.cpp.o  -o ipc_pingpong 
