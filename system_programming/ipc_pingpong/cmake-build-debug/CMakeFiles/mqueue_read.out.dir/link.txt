@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/mqueue_read.out.dir/mqueue_read.cpp.o  -o mqueue_read.out 

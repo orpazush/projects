@@ -1,1 +1,0 @@
-/usr/bin/c++  -pedantic-errors -Wall -Wextra -O3 -O3 -DNDEBUG   CMakeFiles/logger.dir/src/logger/logger_test.cpp.o  -o logger  -Wl,-rpath,/home/orpaz/orpaz-houta/projects/cmake-build-release libprojects.so -lboost_system -lboost_thread -lboost_chrono 

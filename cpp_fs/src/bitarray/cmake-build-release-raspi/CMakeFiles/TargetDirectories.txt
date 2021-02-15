@@ -1,3 +1,0 @@
-/tmp/tmp.i7tGOf6Z4C/cmake-build-release-raspi/CMakeFiles/rebuild_cache.dir
-/tmp/tmp.i7tGOf6Z4C/cmake-build-release-raspi/CMakeFiles/bitarray_test.dir
-/tmp/tmp.i7tGOf6Z4C/cmake-build-release-raspi/CMakeFiles/edit_cache.dir

@@ -1,4 +1,0 @@
-/home/orpaz/orpaz-houta/system_programming/ipc_pingpong/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/orpaz/orpaz-houta/system_programming/ipc_pingpong/cmake-build-debug/CMakeFiles/mqueue_write.out.dir
-/home/orpaz/orpaz-houta/system_programming/ipc_pingpong/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/orpaz/orpaz-houta/system_programming/ipc_pingpong/cmake-build-debug/CMakeFiles/mqueue_read.out.dir

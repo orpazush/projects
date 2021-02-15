@@ -1,1 +1,0 @@
-/usr/bin/c++  -pedantic-errors -Wall -Wextra -O3   CMakeFiles/singleton.dir/src/singleton/singleton_test.cpp.o  -o singleton  -Wl,-rpath,/home/orpaz/orpaz-houta/projects/cmake-build-default libprojects.so -lboost_system -lboost_thread -lboost_chrono 

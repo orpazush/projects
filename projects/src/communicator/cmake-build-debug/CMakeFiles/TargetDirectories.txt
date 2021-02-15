@@ -1,3 +1,0 @@
-/home/orpaz/orpaz-houta/projects/src/communicator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/orpaz/orpaz-houta/projects/src/communicator/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/orpaz/orpaz-houta/projects/src/communicator/cmake-build-debug/CMakeFiles/communicator.dir

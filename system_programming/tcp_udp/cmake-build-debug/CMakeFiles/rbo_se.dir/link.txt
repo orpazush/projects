@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/rbo_se.dir/ping_udp.cpp.o  -o rbo_se 

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libbst.a  CMakeFiles/bst.dir/home/orpaz/orpaz-houta/ds/src/bst/bst.c.o
-/usr/bin/ranlib libbst.a

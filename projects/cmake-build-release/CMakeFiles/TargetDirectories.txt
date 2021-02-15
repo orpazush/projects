@@ -1,5 +1,0 @@
-/home/orpaz/orpaz-houta/projects/cmake-build-release/CMakeFiles/rebuild_cache.dir
-/home/orpaz/orpaz-houta/projects/cmake-build-release/CMakeFiles/projects.dir
-/home/orpaz/orpaz-houta/projects/cmake-build-release/CMakeFiles/logger.dir
-/home/orpaz/orpaz-houta/projects/cmake-build-release/CMakeFiles/minion.dir
-/home/orpaz/orpaz-houta/projects/cmake-build-release/CMakeFiles/edit_cache.dir

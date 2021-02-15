@@ -1,4 +1,0 @@
-/snap/clion/126/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_CXX_FLAGS=-pedantic-errors -Wall -Wextra -g -lboost_system -lboost_chrono" -G "CodeBlocks - Unix Makefiles" /home/orpaz/orpaz-houta/cpp_fs/src/timer
--- Configuring done
--- Generating done
--- Build files have been written to: /home/orpaz/orpaz-houta/cpp_fs/src/timer/cmake-build-debug

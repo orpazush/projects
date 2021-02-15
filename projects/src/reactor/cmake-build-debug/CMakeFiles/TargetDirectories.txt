@@ -1,5 +1,0 @@
-/home/orpaz/orpaz-houta/projects/src/reactor/cmake-build-debug/CMakeFiles/demultiplexer.dir
-/home/orpaz/orpaz-houta/projects/src/reactor/cmake-build-debug/CMakeFiles/clients.dir
-/home/orpaz/orpaz-houta/projects/src/reactor/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/orpaz/orpaz-houta/projects/src/reactor/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/orpaz/orpaz-houta/projects/src/reactor/cmake-build-debug/CMakeFiles/reactor_test.dir

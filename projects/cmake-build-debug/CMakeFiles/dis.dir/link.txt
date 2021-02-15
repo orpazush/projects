@@ -1,1 +1,0 @@
-/usr/bin/c++  -pedantic-errors -Wall -Wextra -g -g   CMakeFiles/dis.dir/src/thread_pool/thread_pool_test.cpp.o  -o dis 

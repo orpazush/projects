@@ -1,3 +1,0 @@
-/home/orpaz/orpaz-houta/cpp_fs/src/scheduler/cmake-build-release/CMakeFiles/rebuild_cache.dir
-/home/orpaz/orpaz-houta/cpp_fs/src/scheduler/cmake-build-release/CMakeFiles/edit_cache.dir
-/home/orpaz/orpaz-houta/cpp_fs/src/scheduler/cmake-build-release/CMakeFiles/scheduler_test.dir

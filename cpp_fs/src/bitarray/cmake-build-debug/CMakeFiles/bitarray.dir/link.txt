@@ -1,1 +1,0 @@
-/usr/bin/c++  -pedantic-errors -Wall -Wextra -g -g   CMakeFiles/bitarray.dir/bitarray.cpp.o  -o bitarray 

@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/udp_socket_test.dir/udp_socket.cpp.o CMakeFiles/udp_socket_test.dir/udp_socket_test.cpp.o  -o udp_socket_test 

@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/scope_lock_test.dir/scope_lock_test.cpp.o  -o scope_lock_test  -lboost_system -lboost_thread 

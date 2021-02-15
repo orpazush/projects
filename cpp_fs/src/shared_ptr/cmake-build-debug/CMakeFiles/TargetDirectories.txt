@@ -1,3 +1,0 @@
-/home/orpaz/orpaz-houta/cpp_fs/src/shared_ptr/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/orpaz/orpaz-houta/cpp_fs/src/shared_ptr/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/orpaz/orpaz-houta/cpp_fs/src/shared_ptr/cmake-build-debug/CMakeFiles/shared_ptr_test.dir

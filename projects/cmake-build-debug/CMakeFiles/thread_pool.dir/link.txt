@@ -1,1 +1,0 @@
-/usr/bin/c++  -pedantic-errors -Wall -Wextra -g -g   CMakeFiles/thread_pool.dir/src/thread_pool/thread_pool_test.cpp.o  -o thread_pool  -Wl,-rpath,/home/orpaz/orpaz-houta/projects/cmake-build-debug libprojects.so -lboost_thread -lpthread -lboost_system -lboost_thread -lboost_chrono -lpthread 

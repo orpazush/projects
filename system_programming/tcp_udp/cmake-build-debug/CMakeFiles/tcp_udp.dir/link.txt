@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/tcp_udp.dir/tcp_client.cpp.o CMakeFiles/tcp_udp.dir/tcp_server.cpp.o  -o tcp_udp 
