@@ -3,7 +3,7 @@
  * 					Last update : 1.2.20									 *
  *****************************************************************************
  * End of game - all the rabbits inside a hole.                              *
- * Parts Rules:                                                            *
+ * Parts Rules:                                                              *
  * Mushrooms - are stationary & cannot be moved (1 space)                    *
  * Foxes - can only move backward or forward. foxes cannot jump over         *
  *         obstacles (2 spaces)                                              *
@@ -110,6 +110,7 @@ private:
     void PlaceInBoard(GamePart *newObj);
     void SetBoard(size_t level);
     void PrintBoard() const;
+    void PrintRules() const;
     void ClearBoard();
 
     void GetInput();

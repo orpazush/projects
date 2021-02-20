@@ -25,7 +25,7 @@ class Command: private boost::noncopyable
 {
 public:
     // Command(); //default
-    virtual ~Command()=0;
+    //virtual ~Command()=0;//TODO
 
     // who ever inherit this class, must declare static func Create()
     // static Command *Create();

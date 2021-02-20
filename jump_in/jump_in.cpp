@@ -22,6 +22,7 @@ size_t Game::m_rabbitsInHole = 0;
 void Game::Play(size_t level)
 {
     size_t numOfLevels = m_levels.size();
+    PrintRules();
     for (size_t i = level; i < numOfLevels && !m_stop; ++i)
     {
         SetBoard(i);
@@ -1086,6 +1087,10 @@ void Game::GetInput()//TODO needs improvement..
             CancelMove();
         }
     }
+    else if ("rules" == input)
+    {
+        PrintRules();
+    }
     else if ("quit" == input)
     {
         m_stop = true;
@@ -1126,6 +1131,36 @@ void Game::GetInput()//TODO needs improvement..
             std::cout << "you try to do illegal move! try again..\n";
         }
     }
+}
+
+void Game::PrintRules() const
+{
+    std::cout <<
+ "* End of game - all the rabbits inside a hole.\n"
+ "* Parts Rules:\n"
+ "* Mushrooms - are stationary & cannot be moved (1 space)\n"
+ "* Foxes - can only move backward or forward. foxes cannot jump over\n"
+ "*         obstacles (2 spaces)\n"
+ "* Rabbits - move by jumping horizontally or vertically over one or more\n"
+ "*           spaces with obstacles (other rabbits, mushrooms, foxes or\n"
+ "*           combination of these)\n"
+ "*         - rabbits must land on the first empty space after a jump - means\n"
+ "*           they can never jump over empty spaces.\n"
+ "*         - rabbits can never move without jump over at least 1 obstacle,\n"
+ "*           thus they can't move to adjacent space.\n"
+ "*         - rabbits cannot jump over an empty hole.\n"
+ "*         - rabbits can jump over a fox no matter the orientation\n"
+ "*           (tail/front/over the side).\n\n"
+ "* Game options -\n"
+ "  1. 'solve' - to automatically solve the level\n"
+ "* 2. 'rules' - to print the rules\n"
+ "* 3. 'quit' - to quit the game\n"
+ "* 4. 'undo' - to cancel the last movement\n"
+ "* 5. to move parts on the board, write the name & the id of the part you\n"
+ "*    wish to move, after that the direction you choose -\n"
+ "*    8(up), 6(right), 2(down) 4(left)\n"
+ "*    for example - 'rabbit1 8'\n\n"
+ "*     GoodLuck!!\n\n";
 }
 
 }//namespace rabbit_hole
