@@ -6,4 +6,5 @@
 !*.cpp
 !*.hpp
 !makefile
+cmake*
 !.so
