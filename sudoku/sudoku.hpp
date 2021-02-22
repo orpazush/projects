@@ -6,7 +6,6 @@
 #ifndef __SUDOKU_HPP__
 #define __SUDOKU_HPP__
 
-#include <cstdint>      //uint8_t
 #include "bitarray.hpp" //BitArray
 
 
@@ -19,8 +18,8 @@ public:
         MEDIUM,
         HARD
     };
-    static const uint8_t BASE = 3;
-    static const uint8_t NUM_OF_DIGITS = BASE * BASE;
+    static const u_int8_t BASE = 3;
+    static const u_int8_t NUM_OF_DIGITS = BASE * BASE;
     typedef ilrd::Bitarray<NUM_OF_DIGITS+1> digits_bitarray_t;
 
     explicit Sudoku(int values[NUM_OF_DIGITS][NUM_OF_DIGITS]);
@@ -36,7 +35,7 @@ private:
     class Square
     {
     public:
-        void InitSquare(uint8_t row, uint8_t column, uint8_t square);
+        void InitSquare(u_int8_t row, u_int8_t column, u_int8_t square);
         size_t CountPossibleValues(const Sudoku &sudoku);
         void UpdatePossibleValues(const Sudoku& sudoku);
         void UnSetValue(Sudoku *sudoku);
@@ -48,9 +47,9 @@ private:
 
     private:
         int m_value;
-        uint8_t m_row;
-        uint8_t m_column;
-        uint8_t m_square;
+        u_int8_t m_row;
+        u_int8_t m_column;
+        u_int8_t m_square;
         digits_bitarray_t m_possibleValues;
     };
 
@@ -65,7 +64,7 @@ private:
     digits_bitarray_t m_rows[NUM_OF_DIGITS];
     digits_bitarray_t m_columns[NUM_OF_DIGITS];
     digits_bitarray_t m_fullSquares[NUM_OF_DIGITS];
-    bool m_noChanges = false;
+    bool m_noChanges;
     size_t m_missingDigits;
 };
 

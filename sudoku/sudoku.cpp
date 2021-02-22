@@ -15,11 +15,11 @@ Sudoku::Sudoku(Sudoku::difficulty_t level)
         : m_noChanges(false), m_missingDigits(NUM_OF_DIGITS*NUM_OF_DIGITS)
 {
     //init all the squares in the board
-    for(uint8_t row = 0; row < NUM_OF_DIGITS; ++row)
+    for(u_int8_t row = 0; row < NUM_OF_DIGITS; ++row)
     {
-        for(uint8_t column = 0; column < NUM_OF_DIGITS; ++column)
+        for(u_int8_t column = 0; column < NUM_OF_DIGITS; ++column)
         {
-            uint8_t square = ((row/BASE) * BASE) + (column/BASE);
+            u_int8_t square = ((row/BASE) * BASE) + (column/BASE);
             m_board[row][column].InitSquare(row, column, square);
         }
     }
@@ -29,8 +29,8 @@ Sudoku::Sudoku(Sudoku::difficulty_t level)
     //sets a 'NUM_OF_DIGITS' random values in random places on the board
     for (size_t i = 0; i < NUM_OF_DIGITS; ++i)
     {
-        uint8_t randRow = rand() % NUM_OF_DIGITS;
-        uint8_t randColumn = rand() % NUM_OF_DIGITS;
+        u_int8_t randRow = rand() % NUM_OF_DIGITS;
+        u_int8_t randColumn = rand() % NUM_OF_DIGITS;
         int randValue = rand() % NUM_OF_DIGITS;
 
         m_board[randRow][randColumn].UpdatePossibleValues(*this);
@@ -47,20 +47,19 @@ Sudoku::Sudoku(Sudoku::difficulty_t level)
     Solve();
 
     //unset an amount of squares according to the chosen difficulty (level)
-    size_t numToHide = 2;
-//    size_t numToHide = 0;
-//    switch (level)
-//    {
-//        case EASY: numToHide = NUM_OF_DIGITS * (NUM_OF_DIGITS-3); break;
-//        case MEDIUM: numToHide = NUM_OF_DIGITS * (NUM_OF_DIGITS-2); break;
-//        case HARD: numToHide = NUM_OF_DIGITS * (NUM_OF_DIGITS-1); break;
-//    }
+    size_t numToHide = 0;
+    switch (level)
+    {
+        case EASY: numToHide = NUM_OF_DIGITS * (NUM_OF_DIGITS-3); break;
+        case MEDIUM: numToHide = NUM_OF_DIGITS * (NUM_OF_DIGITS-2); break;
+        case HARD: numToHide = NUM_OF_DIGITS * (NUM_OF_DIGITS-1); break;
+    }
 
     //unset an amount of squares according to the chosen difficulty
     for (size_t i = 0; i < numToHide; ++i)
     {
-        uint8_t randRow = rand() % NUM_OF_DIGITS;
-        uint8_t randColumn = rand() % NUM_OF_DIGITS;
+        u_int8_t randRow = rand() % NUM_OF_DIGITS;
+        u_int8_t randColumn = rand() % NUM_OF_DIGITS;
 
         m_board[randRow][randColumn].UnSetValue(this);
     }
@@ -77,7 +76,7 @@ Sudoku::Sudoku(int values[NUM_OF_DIGITS][NUM_OF_DIGITS]) : m_noChanges(false)
     {
         for(size_t column = 0; column < NUM_OF_DIGITS; ++column)
         {
-            uint8_t square = ((row/BASE) * BASE) + (column/BASE);
+            u_int8_t square = ((row/BASE) * BASE) + (column/BASE);
             m_board[row][column].InitSquare(row, column, square);
             m_board[row][column].SetValue(this, values[row][column]);
         }
@@ -132,6 +131,7 @@ bool Sudoku::Check()
 //squares with their right values
 void Sudoku::Solve()
 {
+    srand(time(NULL));
     while (!m_noChanges)
     {
         m_noChanges = true;
@@ -141,7 +141,10 @@ void Sudoku::Solve()
 
     if (m_missingDigits != 0)
     {
-        BackTracking(&m_board[0][0]);
+        u_int8_t randRow = rand() % NUM_OF_DIGITS;
+        u_int8_t randColumn = rand() % NUM_OF_DIGITS;
+
+        BackTracking(&m_board[randRow][randColumn]);
     }
 
     //so it could be solved again
@@ -313,7 +316,7 @@ int Sudoku::FindMissingDigit(Sudoku::digits_bitarray_t bitarray, size_t startIdx
 
 void Sudoku::GetInput()
 {
-    int row = 0;
+    char row = 0;
     int column = 0;
     int value = 0;
 
@@ -329,7 +332,7 @@ void Sudoku::GetInput()
     --row;
     --column;
 
-    m_board[row][column].SetValue(this, value);
+    m_board[(row-'A'+1)][column].SetValue(this, value);
 }
 
 ////////////////////////////// Square's Methods ///////////////////////////////
@@ -341,7 +344,7 @@ int Sudoku::Square::GetValue() const
 }
 
 //init the square with the given values & set its m_value to 0
-void Sudoku::Square::InitSquare(uint8_t row, uint8_t column, uint8_t square)
+void Sudoku::Square::InitSquare(u_int8_t row, u_int8_t column, u_int8_t square)
 {
     m_value = 0;
     m_row = row;
