@@ -63,8 +63,6 @@ Sudoku::Sudoku(Sudoku::difficulty_t level)
 
         m_board[randRow][randColumn].UnSetValue(this);
     }
-
-    std::cout << m_missingDigits << std::endl;
 }
 
 
@@ -93,17 +91,17 @@ void Sudoku::Play()
         PrintBoard();
         GetInput();
     }
+//    PrintBoard();
+//    Solve();
 
     if (!Check())
     {
-        std::cout << "  👎🏻👎🏻👎🏻👎🏻 you have errors!! 👎🏻👎🏻👎🏻👎🏻\n";
+        std::cout << "  👎👎👎👎 you have errors!! 👎👎👎👎\n";
         std::cout << "  try to fix it\n";
         while (!Check())
         {
             PrintBoard();
             GetInput();
-
-            std::cout << Check() << std::endl;//TODO
         }
     }
 
@@ -114,7 +112,19 @@ void Sudoku::Play()
 //returns weather the board is solved correctly according to the game rules
 bool Sudoku::Check()
 {
-    ilrd::Bitarray<NUM_OF_DIGITS + 1>checker;
+    //updates all the values
+    //TODO it is possible to make an safe Set &UnSet instead
+    Square *lastSquare = &m_board[NUM_OF_DIGITS-1][NUM_OF_DIGITS-1];
+    for(Square *curr = &m_board[0][0]; curr != lastSquare;
+        curr = curr->NextSquare(this))
+    {
+        u_int8_t value = curr->GetValue();
+        curr->SetValue(this, value);
+    }
+    u_int8_t value = lastSquare->GetValue();
+    lastSquare->SetValue(this, value);
+
+    digits_bitarray_t checker;
     checker.SetAll();
     for (size_t i = 0; i < NUM_OF_DIGITS; ++i)
     {
@@ -123,7 +133,9 @@ bool Sudoku::Check()
         checker &= m_fullSquares[i];
     }
 
-    //the extra 1 is because the element at index 0 in the bitarrays
+    //remove any impact of the first bit which isn't really used
+    checker[0] = false;
+
     return (checker.Count() == NUM_OF_DIGITS);
 }
 
@@ -355,21 +367,21 @@ void Sudoku::Square::InitSquare(u_int8_t row, u_int8_t column, u_int8_t square)
 //sets the square to be 'value' & updates all the relevant members of 'sudoku'
 void Sudoku::Square::SetValue(Sudoku *sudoku, int value)
 {
+    if (0 == value)
+    {
+        UnSetValue(sudoku);
+        return;
+    }
     //case the square has a former value unset it first
     if (0 != m_value)
     {
         UnSetValue(sudoku);
     }
-
-    if (0 != value)
-    {
-        m_possibleValues.ClearAll();
-        --sudoku->m_missingDigits;
-        sudoku->m_rows[m_row][value] = true;
-        sudoku->m_columns[m_column][value] = true;
-        sudoku->m_fullSquares[m_square][value] = true;
-    }
-
+    m_possibleValues.ClearAll();
+    --sudoku->m_missingDigits;
+    sudoku->m_rows[m_row][value] = true;
+    sudoku->m_columns[m_column][value] = true;
+    sudoku->m_fullSquares[m_square][value] = true;
     m_value = value;
 }
 
