@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/orpaz/orpaz-houta/quizzes/greedy.cpp" "/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/CMakeFiles/greedy.dir/greedy.cpp.o"
+  "/home/orpaz/github/quizzes/greedy.cpp" "/home/orpaz/github/quizzes/cmake-build-debug/CMakeFiles/greedy.dir/greedy.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

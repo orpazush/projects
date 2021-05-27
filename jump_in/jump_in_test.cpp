@@ -3,13 +3,18 @@
 
 using namespace jump_in;
 
-int main()
+int main(int argc, char *argv[])
 {
+    size_t level = 0;
+    if (argc > 1)
+    {
+        level = atoi(argv[1]);
+    }
     Game game;
     boost::chrono::steady_clock::time_point start =
             boost::chrono::high_resolution_clock::now();
 
-    game.Play();
+    game.Play(level);
 
     boost::chrono::steady_clock::time_point stop =
             boost::chrono::high_resolution_clock::now();

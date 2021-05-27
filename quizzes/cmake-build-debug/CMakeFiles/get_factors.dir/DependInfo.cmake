@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/orpaz/orpaz-houta/quizzes/get_factors.cpp" "/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/CMakeFiles/get_factors.dir/get_factors.cpp.o"
+  "/home/orpaz/github/quizzes/get_factors.cpp" "/home/orpaz/github/quizzes/cmake-build-debug/CMakeFiles/get_factors.dir/get_factors.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

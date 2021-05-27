@@ -15,6 +15,7 @@ namespace project
 {
 
 template<typename T>
+//class PQueueAdapter : public std::priority_queue <T>//TODO try it
 class PQueueAdapter
 {
 public:

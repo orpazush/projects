@@ -87,18 +87,19 @@ void MissingTwoNum(int arr[], int range, int *num1, int *num2)
         sumRange += i;
     }
 
-    int bisector = (sumRange - sumArr) / 2;
-    int sumLowerArr = -bisector;
+    int bisector = (sumRange - sumArr);
+    bisector = (bisector & 1) ? (bisector+1)/2 : bisector/2;
+    int sumLowerArr = 0;
     int sumLowerRange = 0;
     int sumUpperArr = 0;
-    int sumUpperRange = range;
+    int sumUpperRange = 0;
 
     for (int i = 0; i < bisector; ++i)
     {
         sumLowerRange += i;
     }
 
-    for (int i = bisector+1; i < range; ++i)
+    for (int i = bisector; i <= range; ++i)
     {
         sumUpperRange += i;
     }
@@ -106,7 +107,7 @@ void MissingTwoNum(int arr[], int range, int *num1, int *num2)
     int *endOfArr = arr + sizeArr;
     for (int *i = arr; i < endOfArr; ++i)
     {
-        if (bisector > *i)
+        if (*i < bisector)
         {
             sumLowerArr += *i;
         }
@@ -130,6 +131,7 @@ void TestMissingTwoNum()
 
     int arr1[SIZE_ARR] = {0, 2, 8, 9, 5, 7, 4, 3};
     int arr2[SIZE_ARR+1] = {6, 2, 0, 9, 5, 1, 4, 3, 10};
+    int arr3[SIZE_ARR] = {0, 1, 8, 9, 5, 7, 4, 3};
 
     int num1 = 0;
     int num2 = 0;
@@ -137,18 +139,23 @@ void TestMissingTwoNum()
     MissingTwoNum(arr1, RANGE, &num1, &num2);
     tests += (1 == num1);
     ++numOfTests;
-    std::cout << num1 << std::endl;
+
     tests += (6 == num2);
     ++numOfTests;
-    std::cout << num2 << std::endl;
 
     MissingTwoNum(arr2, RANGE+1, &num1, &num2);
     tests += (7 == num1);
-    std::cout << num1 << std::endl;
+
     ++numOfTests;
     tests += (8 == num2);
     ++numOfTests;
-    std::cout << num2 << std::endl;
+
+    MissingTwoNum(arr3, RANGE, &num1, &num2);
+    tests += (2 == num1);
+
+    ++numOfTests;
+    tests += (6 == num2);
+    ++numOfTests;
 
     if (tests == numOfTests)
     {
@@ -174,11 +181,9 @@ void TestMissingNum()
 
     tests += (6 == MissingNum(arr1, range));
     ++numOfTests;
-//    std::cout << MissingNum(arr1, range) << std::endl;
 
     tests += (1 == MissingNum(arr2, range));
     ++numOfTests;
-//    std::cout << MissingNum(arr2, range) << std::endl;
 
     if (tests == numOfTests)
     {

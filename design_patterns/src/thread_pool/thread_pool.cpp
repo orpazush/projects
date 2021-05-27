@@ -1,15 +1,15 @@
 /*****************************************************************************
  * 					written by : Orpaz Houta								 *
- * 					review :      						         *
  * 					Last update : 13.10.20									 *
  ****************************************************************************/
-#include "logger.hpp"               //LOG_..
 
-#include "thread_pool.hpp"
-#include <boost/thread.hpp>
+#include <boost/thread.hpp>           //boost::thread
 #include <boost/bind.hpp>
 #include <iostream>
-#include <csignal>
+#include <csignal>                    //sigaction, SIGUSR1..
+
+#include "../../include/logger.hpp"               //LOG_..
+#include "thread_pool.hpp"
 
 namespace ilrd
 {
@@ -26,6 +26,7 @@ public:
 private:
     void Execute();
 };
+
 //NUM_OF_PRIORITIES is the highest priority//TODO
 BadApple::BadApple() : ThreadPool::Task(NUM_OF_PRIORITIES)
 {
@@ -42,7 +43,7 @@ void BadApple::Execute()
 ThreadPool::ThreadPool(size_t numOfThreads) : m_numOfThreads(numOfThreads),
                                               m_stop(false), m_pause(false)
 {
-    for (size_t  i = 0; i < numOfThreads; ++i)
+    for (size_t i = 0; i < numOfThreads; ++i)
     {
         boost::thread *newThread = new boost::thread(&ThreadPool::ExecuteTask, this);
         m_threadGroup[newThread->get_id()] = newThread;
@@ -144,6 +145,7 @@ bool ThreadPool::Task::operator<(const ThreadPool::Task &other) const noexcept
 }
 
 ////////////////////////////ThreadPool Private Methods/////////////////////////
+//every thread in the ThreadPool is executing this task
 void ThreadPool::ExecuteTask()
 {
     boost::shared_ptr<Task> task;
@@ -152,7 +154,7 @@ void ThreadPool::ExecuteTask()
     {
         try
         {
-            boost::unique_lock<boost::mutex> lock(m_TasksLock);
+            boost::unique_lock<boost::mutex> lock(m_tasksLock);
             while (m_pause)
             {
                 m_ifPause.wait(lock);
@@ -161,6 +163,8 @@ void ThreadPool::ExecuteTask()
             m_taskQueue.Pop(task);
             task->Execute();
         }
+        //case a BadApple is thrown after SetNumOfThreads to smaller amount
+        //of threads, to remove the thread
         catch (BadApple&)
         {
             boost::thread::id thisId = boost::this_thread::get_id();
@@ -169,15 +173,15 @@ void ThreadPool::ExecuteTask()
             m_threadGroup.erase(thisId);
             lock.unlock();
             LOG_ERROR("thread is removed");//TODO
+
             return;
         }
         catch (boost::thread_interrupted&)
         {
-//            LOG_INFO("thread stopped by SIGUSR1");
+            LOG_INFO("thread stopped by SIGUSR1");
         }
         catch (std::exception&)
         {
-            std::cout << "stop\n";
             LOG_ERROR("task failure");//TODO
         }
     }
@@ -188,19 +192,22 @@ void ThreadPool::StopExecution(boost::chrono::steady_clock::time_point timeOut)
     //block until the time to stop arrived
     boost::this_thread::sleep_until(timeOut);
 
-    boost::mutex::scoped_lock lockT(m_TasksLock);
+    //acquire the m_tasksLock so.. TODO
+    boost::mutex::scoped_lock lockTask(m_tasksLock);
+
     //clear the m_taskQueue
     LOG_DEBUG("clear tasks\n");
     boost::shared_ptr<Task> garbage(new BadApple());
     AddTask(garbage);
 
-    while (false != m_taskQueue.Pop(garbage, boost::chrono::nanoseconds(5000)))
+//    while (false != m_taskQueue.Pop(garbage, boost::chrono::nanoseconds(5000)))
+    while (false != m_taskQueue.Pop(garbage))
     {
 //        empty
     }
-    lockT.unlock();
+    lockTask.unlock();
 
-    boost::mutex::scoped_lock lockG(m_groupLock);
+    boost::mutex::scoped_lock lockGroup(m_groupLock);
 
     LOG_DEBUG("interrupting all threads\n");
     std::map<boost::thread::id, boost::thread *>::iterator i;
@@ -209,7 +216,7 @@ void ThreadPool::StopExecution(boost::chrono::steady_clock::time_point timeOut)
         i->second->interrupt();
         pthread_kill(i->second->native_handle(), SIGUSR1);
     }
-    lockG.unlock();
+    lockGroup.unlock();
 }
 
 static void InterruptExec(int signal_number)

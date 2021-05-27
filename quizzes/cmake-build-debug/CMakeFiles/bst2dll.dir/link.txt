@@ -1,1 +1,1 @@
-/usr/bin/c++  -pedantic-errors -Wall -Wextra -g -g   CMakeFiles/bst2dll.dir/bst2dll.cpp.o  -o bst2dll 
+/usr/bin/c++ -pedantic-errors -Wall -Wextra -g -g CMakeFiles/bst2dll.dir/bst2dll.cpp.o -o bst2dll 

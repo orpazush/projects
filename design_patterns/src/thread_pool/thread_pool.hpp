@@ -1,6 +1,5 @@
 /*****************************************************************************
  * 					written by : Orpaz Houta								 *
- * 					review :      						         *
  * 					Last update : 16.8.20									 *
  ****************************************************************************/
 #ifndef ILRD_RD8788_THREAD_POOL_HPP
@@ -10,7 +9,7 @@
 #define noexcept throw()
 #endif
 
-#include <boost/noncopyable.hpp>
+#include <boost/noncopyable.hpp>    //noncopyable
 #include <boost/thread.hpp>
 
 #include "waitable_queue.hpp"       //WaitableQueue
@@ -21,7 +20,7 @@ namespace ilrd
 namespace project
 {
 
-class ThreadPool: boost::noncopyable
+class ThreadPool : boost::noncopyable
 {
 public:
     explicit ThreadPool(size_t numOfThreads);
@@ -45,8 +44,9 @@ public:
 //        void operator()() {};
 
     private:
-        friend class ThreadPool;
-        virtual void Execute() =0;
+        friend class ThreadPool;//TODO not sure it's necessary
+        virtual void Execute() =0;//maybe change to operator()
+
         priority m_priority;
     };
 
@@ -60,10 +60,10 @@ public:
 private:
     WaitableQueue<boost::shared_ptr<Task>,
             PQueueAdapter<boost::shared_ptr<Task> > > m_taskQueue;
-    std::map<boost::thread::id, boost::thread *> m_threadGroup;
+    std::map<boost::thread::id, boost::thread *> m_threadGroup;//TODO maybe change to unordered..
     boost::condition_variable m_ifPause;
     boost::mutex m_groupLock;
-    boost::mutex m_TasksLock;
+    boost::mutex m_tasksLock;
     size_t m_numOfThreads;
     bool m_stop;
     bool m_pause;
@@ -71,7 +71,6 @@ private:
     void ExecuteTask();
     void StopExecution(boost::chrono::steady_clock::time_point timeOut);
 };
-
 
 }
 } //namespace ilrd

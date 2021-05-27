@@ -1,1 +1,1 @@
-/usr/bin/c++  -pedantic-errors -Wall -Wextra -g -g   CMakeFiles/min_unsort.dir/min_unsort.cpp.o  -o min_unsort 
+/usr/bin/c++ -pedantic-errors -Wall -Wextra -g -g CMakeFiles/min_unsort.dir/min_unsort.cpp.o -o min_unsort 

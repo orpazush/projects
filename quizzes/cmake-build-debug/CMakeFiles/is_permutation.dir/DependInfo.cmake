@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/orpaz/orpaz-houta/quizzes/is_permutation.cpp" "/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/CMakeFiles/is_permutation.dir/is_permutation.cpp.o"
+  "/home/orpaz/github/quizzes/is_permutation.cpp" "/home/orpaz/github/quizzes/cmake-build-debug/CMakeFiles/is_permutation.dir/is_permutation.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

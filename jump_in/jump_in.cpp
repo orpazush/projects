@@ -288,7 +288,7 @@ void Game::PrintBoard() const
     }
 }
 
-void Game::InitBoard()//TODO fix colorGame
+void Game::InitBoard()
 {
     /*------------------------------- Init Squares ---------------------------*/
     //init first row

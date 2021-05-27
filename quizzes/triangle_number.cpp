@@ -6,6 +6,8 @@
 #include <algorithm>
 #include <iostream>
 
+using namespace std;
+
 void TestTriangleNumbers();
 
 int main()
@@ -23,22 +25,20 @@ size_t TrianglesNumber(size_t numbers[], size_t sizeOfNumbers)
 
     std::sort(numbers, endOfNumbers);
 
-    size_t *thirdSide = numbers+2;
-
-    for (size_t *firstSide = numbers;
-         thirdSide < endOfNumbers;
-         ++firstSide, thirdSide = firstSide+2)
+    for (size_t *thirdSide = numbers+2; thirdSide < endOfNumbers; ++thirdSide)
     {
-        for (size_t *secondSide = firstSide+1;
-             thirdSide < endOfNumbers;
-             ++secondSide, thirdSide = secondSide+1)
+        size_t *firstSide = numbers;
+        size_t *secondSide = thirdSide-1;
+        while (firstSide < secondSide)
         {
-            size_t sumOfTwo = *firstSide + *secondSide;
-            for (thirdSide = secondSide+1;
-                 *thirdSide < sumOfTwo && thirdSide < endOfNumbers;
-                 ++thirdSide)
+            if ((*firstSide + *secondSide) > *thirdSide)
             {
-                ++result;
+                result += (secondSide - firstSide);
+                --secondSide;
+            }
+            else
+            {
+                ++firstSide;
             }
         }
     }

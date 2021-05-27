@@ -1,1 +1,1 @@
-/usr/bin/c++  -pedantic-errors -Wall -Wextra -g -g   CMakeFiles/is_permutation.dir/is_permutation.cpp.o  -o is_permutation 
+/usr/bin/c++ -pedantic-errors -Wall -Wextra -g -g CMakeFiles/is_permutation.dir/is_permutation.cpp.o -o is_permutation 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/orpaz/orpaz-houta/quizzes/longest_string.cpp" "/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/CMakeFiles/longest_string.dir/longest_string.cpp.o"
+  "/home/orpaz/github/quizzes/longest_string.cpp" "/home/orpaz/github/quizzes/cmake-build-debug/CMakeFiles/longest_string.dir/longest_string.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

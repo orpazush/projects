@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/orpaz/orpaz-houta/quizzes/stack_of_queues.cpp" "/home/orpaz/orpaz-houta/quizzes/cmake-build-debug/CMakeFiles/stack_of_queues.dir/stack_of_queues.cpp.o"
+  "/home/orpaz/github/quizzes/stack_of_queues.cpp" "/home/orpaz/github/quizzes/cmake-build-debug/CMakeFiles/stack_of_queues.dir/stack_of_queues.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

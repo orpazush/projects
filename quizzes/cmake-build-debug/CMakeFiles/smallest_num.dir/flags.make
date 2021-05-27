@@ -6,5 +6,5 @@ CXX_FLAGS = -pedantic-errors -Wall -Wextra -g -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/orpaz/orpaz-houta/quizzes/. -I/home/orpaz/orpaz-houta/quizzes/../cpp_fs/include 
+CXX_INCLUDES = -I/home/orpaz/github/quizzes/. -I/home/orpaz/github/quizzes/../cpp_fs/include 
 

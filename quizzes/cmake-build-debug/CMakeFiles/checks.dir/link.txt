@@ -1,1 +1,1 @@
-/usr/bin/c++  -pedantic-errors -Wall -Wextra -g -g   CMakeFiles/checks.dir/checks.cpp.o  -o checks 
+/usr/bin/c++ -pedantic-errors -Wall -Wextra -g -g CMakeFiles/checks.dir/checks.cpp.o -o checks 
