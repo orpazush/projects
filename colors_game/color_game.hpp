@@ -29,10 +29,13 @@ public:
         NUM_OF_COLORS
     };
 
+    /* A function to convert from int to color_t */
     static inline color_t IntToColor(int intColor);
 
+    /* A function to print type color_t */
     static inline void Print(color_t intColor);
 
+    /* A function to convert from color_t to int */
     static inline color_t ToColorT(const char *str);
 
     //Game();
