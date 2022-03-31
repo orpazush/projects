@@ -1,1 +1,3 @@
-this is a game
+Colors Game
+
+this is an actual game
