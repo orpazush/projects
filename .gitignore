@@ -8,3 +8,5 @@
 !makefile
 cmake*
 !.so
+!play
+!levels_file

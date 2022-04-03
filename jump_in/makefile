@@ -5,7 +5,7 @@ FILES = $(wildcard *.cpp)
 OUT = $(wildcard *.out)
 EXTRA =-g
 CFLAGS =-std=c++98 -pedantic-errors -Wall -Wextra $(EXTRA) -I$(INC) -L$(LDIR)
-LINKERFLAGS=-Wl,-rpath= ../design_patterns/lib/libdp.so -lboost_system -pthread -lboost_thread -lboost_chrono
+LINKERFLAGS=-Wl,-rpath= ../../../design_patterns/lib/libdp.so -lboost_system -pthread -lboost_thread -lboost_chrono
 
 all:
 	$(CC) $(CFLAGS) $(FILES) $(LINKERFLAGS) -o play
