@@ -15,8 +15,9 @@
    as the first will be changed to the new chosen color.
   - Keep choosing colors until the end of the game.
 
-* End of game - 1. winning!🏆 all the board is of the same color.
-              - 2. Losing..👎🏼 you passed the maximum amounts of turns/moves.
+* End of game
+  - 1. winning!🏆 all the board is of the same color.
+  - 2. Losing..👎🏼 you passed the maximum amounts of turns/moves.
 
 * Notes -
   - It's possible to redefine the size of the board and the number of
