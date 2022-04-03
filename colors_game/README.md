@@ -5,8 +5,8 @@
  An actual game you can play on the terminal.
 
 * The progress of the game:
- - Choose a color by writing to the terminal the first letter of the
-   chosen color (for example 'r' - red, 'g' - green etc)..
+  - Choose a color by writing to the terminal the first letter of the
+    chosen color (for example 'r' - red, 'g' - green etc)..
    after you choose the color, every square start with the upper-left
    corner and spreads to every other touching square with the same color
    will be changed to the chosen color.
