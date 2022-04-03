@@ -1,11 +1,10 @@
-/*****************************************************************************
- * 					Jump In
- * 					written by : Orpaz Houta								 
- * 					Last update : 1.2.22									 
- *****************************************************************************
-An actual game you can play on the terminal.
+  					Jump In
+  					written by : Orpaz Houta								 
+  					Last update : 1.2.22									 
+ 
+ An actual game you can play on the terminal.
 
-*In order to play:
+* In order to play:
   - Run the command "./play" at the terminal.
   - Build & run the project at your IDE.
 
@@ -24,10 +23,10 @@ An actual game you can play on the terminal.
      for example - 'rabbit1 8' or 'fox2 2'
  
  * Game options:
-  - 1. 'solve' - to automatically solve the level\n"
-  - 2. 'rules' - to print the rules\n"
-  - 3. 'quit' - to quit the game\n"
-  - 4. 'undo' - to cancel the last movement\n"
+  - 1. 'solve' - to automatically solve the level
+  - 2. 'rules' - to print the rules
+  - 3. 'quit' - to quit the game
+  - 4. 'undo' - to cancel the last movement
  * 
  * Parts Rules:                                                              
    - Mushrooms - are stationary & cannot be moved (1 space)                    
