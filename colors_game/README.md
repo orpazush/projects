@@ -5,7 +5,7 @@
  An actual game you can play on the terminal.
 
 * The progress of the game:
- - Choose a color by writing to the terminal the first letter of the
+ - Choose a color by writing to the terminal/n\n the first letter of the
    chosen color (for example 'r' - red, 'g' - green etc)..
    after you choose the color, every square start with the upper-left
    corner and spreads to every other touching square with the same color
@@ -18,5 +18,5 @@
 * Notes -
  - It's possible to redefine the size of the board and the number of
    possible turns for every game
-****************************************************************************/
+
  
