@@ -15,7 +15,8 @@
   - Move the parts on the board acording to every part rules until you put
   - all the rabbits to their hole.
   - to move parts on the board, write the name & the id of the part you
-    wish to move, than add a space and the direction you choose according to:
+    wish to move, 
+    than add a space and the direction you choose according to:
    -   8(up) 
    -   6(right) 
    -   2(down) 
@@ -29,9 +30,9 @@
    - 4. 'undo' - to cancel the last movement
   
  * Parts Rules:                                                              
-   - Mushrooms - are stationary & cannot be moved (1 space)                    
-   - Foxes - can only move backward or forward. foxes cannot jump over         
-             obstacles (2 spaces)                                              
+   - Mushrooms - are stationary & cannot be moved (1 space on the board)                    
+   - Foxes - can only move backward or forward. 
+           - foxes cannot jump over obstacles (2 spaces on the board)                                              
    - Rabbits - move by jumping horizontally or vertically over one or more     
             spaces with obstacles (other rabbits, mushrooms, foxes or       
             combination of these)                                           
