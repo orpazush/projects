@@ -7,7 +7,7 @@ In order to play:
   - Run the command "./play" at the terminal.
   - Build & run the project at your IDE.
 
-Rules:
+Game Rules:
 * 1 - Each row must contain the numbers from 1 to 9, without repetitions
 * 2 - Each column must contain the numbers from 1 to 9, without repetitions
 * 3 - The digits can only occur once per block (nonet)
@@ -19,8 +19,7 @@ The progress of the game:
 * input the value you wish to add
 * keep going until the board will be complete.
 
-End of game
-winning!🏆 all the board is complete according to the rules.
+End of game - 🏆 all the board is complete according to the rules.
 
 Notes -
 There is three levels of difficultys (EASY, MEDIUM, HARD)
