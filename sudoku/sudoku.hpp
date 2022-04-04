@@ -14,9 +14,9 @@ class Sudoku
 public:
     enum difficulty_t
     {
-        EASY,
-        MEDIUM,
-        HARD
+        EASY=1,
+        MEDIUM=2,
+        HARD=3
     };
     static const u_int8_t BASE = 3;
     static const u_int8_t NUM_OF_DIGITS = BASE * BASE;
