@@ -16,18 +16,18 @@
   - all the rabbits to their hole.
   - to move parts on the board, write the name & the id of the part you
     wish to move, than add a space and the direction you choose according to:
-     8(up) 
-     6(right) 
-     2(down) 
-     4(left)
-     for example - 'rabbit1 8' or 'fox2 2'
+   -   8(up) 
+   -   6(right) 
+   -   2(down) 
+   -   4(left)
+   for example - 'rabbit1 8' or 'fox2 2'
  
  * Game options:
-  - 1. 'solve' - to automatically solve the level
-  - 2. 'rules' - to print the rules
-  - 3. 'quit' - to quit the game
-  - 4. 'undo' - to cancel the last movement
- * 
+   - 1. 'solve' - to automatically solve the level
+   - 2. 'rules' - to print the rules
+   - 3. 'quit' - to quit the game
+   - 4. 'undo' - to cancel the last movement
+  
  * Parts Rules:                                                              
    - Mushrooms - are stationary & cannot be moved (1 space)                    
    - Foxes - can only move backward or forward. foxes cannot jump over         
