@@ -30,19 +30,22 @@
    - 4. 'undo' - to cancel the last movement
   
  * Parts Rules:                                                              
- * Mushrooms - are stationary & cannot be moved (1 space on the board)                    
- * Foxes - can only move backward or forward. 
-         - foxes cannot jump over obstacles (2 spaces on the board)                                              
- * Rabbits - move by jumping horizontally or vertically over one or more     
-            spaces with obstacles (other rabbits, mushrooms, foxes or       
-            combination of these)                                           
-          - rabbits must land on the first empty space after a jump - means 
-            they can never jump over empty spaces.                          
-          - rabbits can never move without jumping over at least 1 obstacle,
-            thus they can't move to adjacent space.                         
-          - rabbits cannot jump over an empty hole.                         
-          - rabbits can jump over a fox no matter the orientation           
-            (tail/front/over the side).
+ * Mushrooms:
+   - are stationary & cannot be moved (1 space on the board)                    
+ * Foxes:
+   - can only move backward or forward. 
+   - foxes cannot jump over obstacles (2 spaces on the board)                                              
+ * Rabbits:
+   - move by jumping horizontally or vertically over one or more     
+     spaces with obstacles (other rabbits, mushrooms, foxes or       
+     combination of these)                                           
+   - rabbits must land on the first empty space after a jump - means 
+     they can never jump over empty spaces.                          
+   - rabbits can never move without jumping over at least 1 obstacle,
+     thus they can't move to adjacent space.                         
+   - rabbits cannot jump over an empty hole.                         
+   - rabbits can jump over a fox no matter the orientation           
+    (tail/front/over the side).
             
   * Notes
     - it is possible to choose more advance level by adding wanted level as an 
